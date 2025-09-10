@@ -1,11 +1,14 @@
 import numpy as np
 import json
 from keras.models import load_model
+from huggingface_hub import hf_hub_download
 
-encoder_model = load_model('./attention_encoder_model.keras')
-decoder_model = load_model('./attention_decoder_model.keras')
-# print(model)
+encoder_path = hf_hub_download(repo_id="samiali12/neural-date-translator-model", filename="attention_encoder_model.keras")
+decoder_path = hf_hub_download(repo_id="samiali12/neural-date-translator-model", filename="attention_decoder_model.keras")
 
+
+encoder_model = load_model(encoder_path)
+decoder_model = load_model(decoder_path)
 
 with open('params.json', 'r') as f:
     data = json.load(f)

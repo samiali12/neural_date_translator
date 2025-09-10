@@ -1,6 +1,7 @@
 import gradio as gr 
 from model import predict
 
+
 GITHUB_LINK = "https://github.com/samiali12/neural_date_translator"
 COFFEE_LINK = "https://www.buymeacoffee.com/samiali"
 
