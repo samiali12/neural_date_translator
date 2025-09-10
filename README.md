@@ -1,2 +1,10 @@
-# neural_date_translator
-  A deep learning model using sequence-to-sequence architecture with attention that converts human-written dates (e.g., "21th of August 2016") into standardized machine-readable format (e.g., "2016-08-21").
+---
+title: Neural Date Translator
+emoji: 🌟
+colorFrom: blue
+colorTo: pink
+sdk: gradio
+sdk_version: "4.37.2"
+app_file: app.py
+pinned: false
+---
