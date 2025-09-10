@@ -33,7 +33,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
             ☕ If you like this project, consider [buying me a coffee]({COFFEE_LINK})  
 
             <a href="{COFFEE_LINK}" target="_blank">
-            <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" 
+            <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
                 alt="Buy Me A Coffee" height="41" width="174">
             </a>
             """
