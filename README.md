@@ -26,7 +26,7 @@ pinned: false
 ## 📸 Demo
 ![App Screenshot](https://res.cloudinary.com/dcffvppph/image/upload/v1757498196/pp2_ofwxyt.png)  
 
-Try it live: [Gradio Link](https://huggingface.co/spaces/samiali12/neural_date_translator) *(add when deployed)*  
+Try it live: [Gradio Link](https://huggingface.co/spaces/samiali12/neural_date_translator)
 
 ---
 
